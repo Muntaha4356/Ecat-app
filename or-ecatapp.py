@@ -1,21 +1,9 @@
-# from login_id import login_ids
-# import os
-# main_fil_path = os.path.abspath("or-ecatapp.py")
-# login_id_file_path = os.path.abspath("login_id.py")
-# main_directory = os.path.dirname(main_fil_path)
-# login_id_directory = os.path.dirname(login_id_file_path)
-# if main_directory == login_id_directory:
-     
-#      print("both in same")
-# else:
-#      print("diff")
 Name= input("Name:")
 Roll_no= input("Roll number= ")
 login_ids = [123, 456, 789, 345, 678, 147]
 def check(login_user):
     return login_user in login_ids
     
-
 while True : # it'll repeat until the id entered is correct.
 
      login= int(input("Login_in id: "))
@@ -27,11 +15,6 @@ while True : # it'll repeat until the id entered is correct.
 
 print(f"Name: {Name}")  
 print(f"Roll no. : {Roll_no}") 
-# questions_Maths=  [["What is the value of pi (π) to two decimal places?"],
-# ["A. 3.12" ,\
-# "B. 3.14", \
-# "C. 3.16"] ]
-
 print("Get Ready for the test")
 
 marks = []
@@ -39,11 +22,7 @@ i = 0
 wrong = 0
 correct = 0
 while i<10:
-
    print("CHEMISTRY PORTION")
-
-
-
    print("Which of the following is NOT a noble gas?")
    option= ["A. Helium","B. Argon","C. Nitrogen", "D.skip", "F. Submit"]
    print(option)
@@ -58,10 +37,10 @@ while i<10:
      continue
    elif choice == "F":
      break
-
    else:
      wrong+=1
      print("2nd Question")
+     
    print  ("Which of the following is a non-metal?")
    option= ["A. Sodium", \
            "B. Iron", \
@@ -236,5 +215,3 @@ marks = sum(marks)
 print(f"The total marks are {marks- wrong}")   
 print(f"Wrong answers are {wrong}") 
 print(f"Attempted Question are {correct}")   
-     
-
