@@ -45,7 +45,7 @@ while i<10:
 
 
    print("Which of the following is NOT a noble gas?")
-   option= ["A. Helium","B. Argon","C. Nitrogen", "D.skip", "F. Submit"]
+   option= ["A. Helium","B. Argon","C. Nitrogen", "D.skip", "E. Submit"]
    print(option)
    choice= input("choice").upper
    i+=1
@@ -56,7 +56,7 @@ while i<10:
      print("2nd Question" )
    elif choice == "D":
      continue
-   elif choice == "F":
+   elif choice == "E":
      break
 
    else:
@@ -65,7 +65,7 @@ while i<10:
    print  ("Which of the following is a non-metal?")
    option= ["A. Sodium", \
            "B. Iron", \
-           "C. Carbon", "D. Skip", "F.submit"]
+           "C. Carbon", "D. Skip", "E.submit"]
    i+=1
    print(option) 
    choice = input("choice") .upper()
@@ -75,7 +75,7 @@ while i<10:
      print("3rd Question" )
    elif choice == "D":
       continue
-   elif choice == "F":
+   elif choice == "E":
      break
    else:
      wrong +=1
@@ -93,7 +93,7 @@ while i<10:
      print("4th Question" )
    elif choice == "D":
       continue
-   elif choice == "F":
+   elif choice == "E":
      break
    else:
      wrong += 1
@@ -102,7 +102,7 @@ while i<10:
    print("What is the value of pi (π) to two decimal places?")
    option = ["A. 3.12", \
          "B. 3.14", \
-        "C. 3.16", "D.Skip", "F.Submit"] 
+        "C. 3.16", "D.Skip", "E.Submit"] 
    print(option) 
    choice = input("choice") .upper()
    i+=1
@@ -112,7 +112,7 @@ while i<10:
      print("5th Question" )
    elif choice == "D":
       continue
-   elif choice == "F":
+   elif choice == "E":
      break
   
    else:
@@ -121,7 +121,7 @@ while i<10:
    print("What is the square root of 49?")
    option= ["A. 6", \
         "B. 7", \
-       "C. 8", "D. Skip", "F. Submit"]  
+       "C. 8", "D. Skip", "E. Submit"]  
    print(option) 
    choice = input("choice") .upper()
    i+=1
@@ -131,7 +131,7 @@ while i<10:
      print("6th Question" )
    elif   choice == "D":
      continue
-   elif choice == "F":
+   elif choice == "E":
      break
    else:
      wrong +=1
@@ -139,7 +139,7 @@ while i<10:
    print("What is the value of 5 squared?")
    option = ["A. 10", \
              "B. 20" \
-           "C. 25", "D. Skip", "F. Submit"]
+           "C. 25", "D. Skip", "E. Submit"]
    print(option) 
    choice = input("choice") .upper()
    i+=1
@@ -149,7 +149,7 @@ while i<10:
      print("7th Question" )
    elif choice == "D":
      continue
-   elif choice == "F":
+   elif choice == "E":
      break   
    else:
      wrong +=1
@@ -168,7 +168,7 @@ while i<10:
      print("8th Question" )
    elif  choice == "D":
      continue
-   elif choice == "F":
+   elif choice == "E":
      break  
    else:
      wrong +=1
@@ -186,7 +186,7 @@ while i<10:
      print("9th Question" )
    elif choice == "D":
      continue
-   elif choice == "F":
+   elif choice == "E":
      break
 
    else:
@@ -205,7 +205,7 @@ while i<10:
      print("10th Question" )
    elif choice == "D":
      continue
-   elif choice == "F":
+   elif choice == "E":
      break
 
    else:
@@ -225,7 +225,7 @@ while i<10:
      print("Questions End ... You Completed your test")
    elif choice == "D":
      continue
-   elif choice == "F":
+   elif choice == "E":
      break
      
    else:
